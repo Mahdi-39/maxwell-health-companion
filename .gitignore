@@ -1,0 +1,11 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Large Mediapipe model files (they auto-download on first run anyway)
+face_landmarker.task
+
+# Environment files or local keys
+.env
+*.local
